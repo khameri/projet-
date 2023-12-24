@@ -1,0 +1,204 @@
+
+/* navbar */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+nav img{
+    width: 120px; 
+}
+nav h1{
+    color: rgb(174, 10, 10);
+}
+nav div  img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    font-size: 18px;
+    color:rgb(11, 2, 4);
+    text-decoration: none;
+}
+
+
+/* ABOUT */
+.about{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    display: flex;
+    gap: 30px;
+}
+.paragraphe{
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    line-height: 2.1em;
+    letter-spacing: 1.4px;
+}
+.paragraphe h2{
+    color: #bd0e0e;
+    font-family: "Oswald", Sans-serif;
+    font-size: 48px;
+    font-weight: 150;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 2.8px;
+    justify-content: space-between;
+    margin-left: 250px;
+}
+.about img{
+    padding-top:20px;
+}
+/* image welcome */
+.welcome img{
+    height: 850px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+/* FAMOUS */
+.famous{
+    display: flex;
+    justify-content: center;
+    gap:150px;
+    padding: 20px;
+    margin: 50px;
+}
+h1{
+    color: rgb(69, 66, 66);
+        display:flex ;
+        justify-content: center;
+        font-weight: 200;
+        font-family: Georgia, 'Times New Roman', Times, serif;   
+        margin: 10px;
+        padding: 20px;
+}
+/* famous */
+.famous img{
+    display: flex;
+    width: 180px;
+    height: 180px;
+}
+.famous h4{
+    color: #030303e1;
+    font-family: "Oswald", Sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style:inherit;
+    letter-spacing: 3.6px;
+}
+/* MENU */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    justify-content: center;
+    display: none;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.menu {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+}
+.burger{
+    display:block ;
+}
+/* delvery */
+.delvery{
+    display: flex;
+    padding: 70px;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #e0dbdb;
+    margin-top: 0px;
+}
+.texte{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delvery img{
+    width: 250px;
+    height:150px;
+    margin-bottom: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+}
+/* buttom */
+.btn-custom {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 0px 0px rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease 0s;
+}
+
+.btn-custom:hover {
+    background-color: #0079A1;
+    box-shadow: 0px 3px 0px 0px rgba(255, 255, 255, 0.4);
+    color: #FFF;
+}
+/* buttom */
+.footer {
+    background-color: #585656;
+    color: white;
+    padding: 120px;
+    text-align: center;
+}
+.footer h1 {
+    margin: 0;
+    color:#0f0101;
+
+}
+.footer p {
+    margin: 10px 0;
+
+}
+.footer input[type="email"]{
+    background-color: #282727;
+    border: none;
+    color: white;
+    padding: 20px;
+    width: 250px;
+}
+

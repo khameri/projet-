@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+/* navbar */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
